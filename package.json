@@ -1,0 +1,52 @@
+{
+  "name": "2017.jsunconf.eu",
+  "version": "0.0.1",
+  "description": "The 2017 edition of the jsunconf website",
+  "main": "index.js",
+  "dependencies": {
+    "metalsmith": "^2.3.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^0.8.0",
+    "handlebars": "^4.0.6",
+    "light-server": "^1.1.2",
+    "metalsmith": "^2.3.0",
+    "metalsmith-assets": "^0.1.0",
+    "metalsmith-browser-sync": "^1.1.1",
+    "metalsmith-collections": "^0.7.0",
+    "metalsmith-feed": "^0.2.0",
+    "metalsmith-html-minifier": "^2.2.0",
+    "metalsmith-in-place": "^1.4.4",
+    "metalsmith-layouts": "^1.7.0",
+    "metalsmith-mapsite": "^1.0.4",
+    "metalsmith-markdown": "^0.2.1",
+    "metalsmith-metadata": "0.0.4",
+    "metalsmith-permalinks": "^0.4.1",
+    "metalsmith-publish": "^0.1.5",
+    "metalsmith-stylus": "^1.0.0",
+    "metalsmith-templates": "^0.7.0",
+    "metalsmith-word-count": "0.0.4",
+    "moment": "^2.10.6",
+    "then-jade": "^2.4.1"
+  },
+  "scripts": {
+    "start": "npm run clean && npm run build && npm run server",
+    "clean": "rm -rf build",
+    "server": "light-server -s ./build/ -p 8080 -w 'theme/**/*, content/**/* # npm run build'",
+    "build": "metalsmith",
+    "setenv": "git config --global user.email \"$GH_EMAIL\" && git config --global user.name \"$GH_NAME\"",
+    "ci-deploy": "if [ \"$TRAVIS_PULL_REQUEST\" = \"false\" ] && [ \"$TRAVIS_BRANCH\" = \"master\" ]; then npm run setenv && npm run deploy; fi;",
+    "deploy": "npm run clean && npm run build && node tools/deploy.js",
+    "test": "npm run ci-deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsunconf/2017.jsunconf.eu.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsunconf/2017.jsunconf.eu/issues"
+  },
+  "homepage": "https://github.com/jsunconf/2017.jsunconf.eu#readme"
+}
