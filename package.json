@@ -1,13 +1,10 @@
 {
   "name": "2017.jsunconf.eu",
   "version": "0.0.1",
-  "description": "The 2017 edition of the jsunconf website",
+  "description": "The 2017 edition of the JSUnconf website",
   "main": "index.js",
-  "dependencies": {
-    "metalsmith": "^2.3.0"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "gh-pages": "^0.8.0",
     "handlebars": "^4.0.6",
     "light-server": "^1.1.2",
     "metalsmith": "^2.3.0",
@@ -32,12 +29,9 @@
   "scripts": {
     "start": "npm run clean && npm run build && npm run server",
     "clean": "rm -rf build",
-    "server": "light-server -s ./build/ -p 8080 -w 'theme/**/*, content/**/* # npm run build'",
+    "server": "light-server -s ./docs/ -p 8080 -w 'theme/**/*, content/**/* # npm run build'",
     "build": "metalsmith",
-    "setenv": "git config --global user.email \"$GH_EMAIL\" && git config --global user.name \"$GH_NAME\"",
-    "ci-deploy": "if [ \"$TRAVIS_PULL_REQUEST\" = \"false\" ] && [ \"$TRAVIS_BRANCH\" = \"master\" ]; then npm run setenv && npm run deploy; fi;",
-    "deploy": "npm run clean && npm run build && node tools/deploy.js",
-    "test": "npm run ci-deploy"
+    "test": ""
   },
   "repository": {
     "type": "git",

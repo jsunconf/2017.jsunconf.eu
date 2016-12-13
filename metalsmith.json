@@ -4,6 +4,7 @@
     "description": "The Unconference that started it all."
   },
   "source": "content",
+  "destination": "docs",
   "plugins": {
     "metalsmith-metadata": {
       "sponsors": "sponsors.yaml"

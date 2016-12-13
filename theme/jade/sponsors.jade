@@ -1,15 +1,15 @@
 extends _layout
 
 block main
-  section.simple-content
-    header.simple-content__header
+  section.section
+    header.section__header
       h1 !{title}
       if exerpt
         p.exerpt !{exerpt}
 
     if contents
-      main !{contents}
-      
+      .section__content !{contents}
+
 block sponsors
   each level in ['Gold', 'Silver', 'Bronze']
     - var levelSponsors = sponsors.filter(sponsor => sponsor.level === level);
