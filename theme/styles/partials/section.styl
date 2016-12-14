@@ -3,9 +3,29 @@
   margin: emCalc(100) 0
 
   &__header, &__content, &__call-to-action
-    width: 90%
     max-width: emCalc(740)
     margin: 0 auto
+
+  &__header
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center center
+
+    &--awesome
+      background-image: url('/images/voting.jpg')
+      color: $backgroundColor
+
+    &--tickets
+      background-image: url('/images/tickets.jpg')
+      color: $backgroundColor
+
+    &--sponsoring
+      background-image: url('/images/sponsoring.jpg')
+      color: $backgroundColor
+
+    &--coc
+      background-image: url('/images/coc.jpg')
+      color: $backgroundColor
 
   &__content
     padding: emCalc(40) emCalc(20)
