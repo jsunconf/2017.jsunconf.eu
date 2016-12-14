@@ -272,6 +272,15 @@ h4 {
   background-position: center center;
   mix-blend-mode: darken;
 }
+.section__header h2 {
+  line-height: 1.05;
+}
+.section__header--awesome,
+.section__header--tickets,
+.section__header--sponsoring,
+.section__header--coc {
+  padding: 0 2em;
+}
 .section__header--awesome {
   background-image: url("/images/voting.jpg");
 }
