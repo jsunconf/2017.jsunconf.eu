@@ -193,6 +193,15 @@ h4 {
   background: url("/images/people.jpg") no-repeat center center;
   background-size: cover;
   margin-bottom: 3em;
+  position: relative;
+}
+.main-footer__people__headline {
+  color: #fff;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .main-footer__link img {
   vertical-align: bottom;
@@ -260,19 +269,15 @@ h4 {
 }
 .section__header--awesome {
   background-image: url("/images/voting.jpg");
-  color: #fff;
 }
 .section__header--tickets {
   background-image: url("/images/tickets.jpg");
-  color: #fff;
 }
 .section__header--sponsoring {
   background-image: url("/images/sponsoring.jpg");
-  color: #fff;
 }
 .section__header--coc {
   background-image: url("/images/coc.jpg");
-  color: #fff;
 }
 .section__content {
   padding: 2.222222222222222em 1.111111111111111em;
