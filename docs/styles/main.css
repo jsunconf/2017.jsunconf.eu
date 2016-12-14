@@ -270,6 +270,7 @@ h4 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  mix-blend-mode: darken;
 }
 .section__header--awesome {
   background-image: url("/images/voting.jpg");
