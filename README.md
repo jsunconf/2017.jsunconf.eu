@@ -28,10 +28,4 @@ npm run build
 
 ## Deploy
 
-Run deploy to build and deploy the build to the `gh-pages` branch:
-
-```bash
-npm run deploy
-```
-
-_This will be done by travis as soon as something gets on the master branch._
+The site will be served from the docs folder via Github Pages.
