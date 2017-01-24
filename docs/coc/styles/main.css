@@ -284,6 +284,9 @@ h4 {
 .section__header--awesome {
   background-image: url("/images/voting.jpg");
 }
+.section__header--location {
+  background-image: url("/images/bmk.jpg");
+}
 .section__header--tickets {
   background-image: url("/images/tickets.jpg");
 }
