@@ -55,3 +55,25 @@ With a team of 40 developers, designers and project managers, we bring projects 
   twitter: "@rheinwerkverlag"
   image: rheinwerk.svg
   description: "Rheinwerk is Germany's leading publisher of IT books. Our books, e-books and video tutorials are a real boon for beginners, advanced learners and professionals alike, whether they want to acquire basic software and hardware skills or deepen their technical know-how. In addition to books for programmers, designers and administrators, we offer a wide range of learning material for users of JavaScript and other programming languages for the web."
+
+-
+  name: "DNSimple"
+  level: Silver
+  url: "https://dnsimple.com"
+  twitter: "@DNSimple"
+  image: dnsimple.svg
+  description: "DNSimple provides the tools your need to manage your domains. We offer both a carefully crafted web interface for managing your domains and DNS records, as well as an HTTP API with various code libraries and tools.
+At DNSimple we put our customers' needs first and do everything we can to provide a straightforward and easy to use interface for setting up and editing DNS records. Rather than offering only DNS services, or focusing on domain registration without a focus on excellent DNS, we unite both aspects of managing domains (and throw in SSL certificates) to provide a streamlined system for managing all of your domains easily so you can do other things instead of fighting with your domain provider."
+
+-
+  name: "Xing"
+  level: Gold
+  url: "https://www.xing.com"
+  twitter: "@xing_de"
+  image: xing.svg
+  description: "XING is the social network for business contacts.
+
+XING has 10.5 million users in its core German-speaking market.
+
+XING is a platform where professionals from all kinds of different industries can meet up, find jobs, colleagues, new assignments, cooperation partners,
+experts, generate business ideas and discover the latest industry topics. Members can meet and exchange views in over 74,000 specialist groups, while also getting together at networking events. The platform is operated by XING AG."
