@@ -461,8 +461,10 @@ textarea,
   width: 100%;
 }
 .submit-form {
+  padding: 15px;
   max-width: 500px;
   margin: 1em auto;
+  background: rgba(0,0,0,0.25);
 }
 .submit-form__header h3,
 .submit-form__header fieldset {
@@ -475,8 +477,6 @@ textarea,
   display: none;
 }
 .submit-form input[type="radio"] + label {
-  background-color: #999;
-  box-shadow: 2px 2px 0px 2px #777;
   padding: 4px 11px;
   font-family: Arial;
   font-size: 16px;
@@ -485,7 +485,6 @@ textarea,
   padding-bottom: 0;
 }
 .submit-form input[type="radio"]:checked + label {
-  background-color: #0069b4;
   box-shadow: 2px 2px 0px 2px #004b9f;
 }
 .entries-container {
@@ -586,7 +585,6 @@ textarea,
 .user__button-login,
 .user__button-logout {
   cursor: pointer;
-  box-shadow: 2px 2px 0px 2px #004b9f;
   padding: 4px 11px;
 }
 .react-spinner {
