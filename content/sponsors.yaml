@@ -30,7 +30,8 @@ With a team of 40 developers, designers and project managers, we bring projects 
   url: "http://www.coremedia.com/"
   twitter: "@CoreMedia_News"
   image: coremedia.svg
-  description: "CoreMedia, angesiedelt im Herzen Hamburgs, ist Anbieter einer der führenden Plattformen für digitale Erlebnisse. Seit mehr als 19 Jahren unterstützt CoreMedia bedeutende internationale Marken bei der erlebnisorientierten Umsetzung ihrer Online-Strategien. Unternehmen unterschiedlicher Branchen erreichen ihre Zielgruppen an jedem Touchpoint durch die nahtlose Integration von digitalen, e-Commerce- und Social Media-Inhalten. Dabei verkürzt CoreMedia die Time-to-Market und steigert die Produktivität der Anwender. CoreMedia verwandelt Online Shops in digitale Erlebnisse. Dies führt zu stärkerer Kundenaktivierung, -bindung und höherem Umsatz. Gegründet 1996, betreibt CoreMedia neben seinem Hauptsitz Büros in San Francisco, Washington, London und Singapur und verfügt über ein weltweites Netzwerk von Partnern. Zu den Kunden gehören führende globale Organisationen aus unterschiedlichsten Branchen, die einige der anspruchsvollsten und meistbesuchten Websites der Welt betreiben."
+  description: "CoreMedia is a leading digital experience (DX) company that has been powering the online strategy of organizations across varied industries for more than 20 years. We partner with our customers to connect them with their audiences wherever they are by seamlessly integrating digital, e-Commerce and social media assets, accelerating time to market and increasing the productivity of business users. Our solutions also help transform e-Commerce stores by infusing visually compelling and immersive content into the online customer experience, resulting in increased engagement, sales, and loyalty.
+Established in 1996, CoreMedia is headquartered in Hamburg, Germany, with offices in San Francisco, Washington DC, London and Singapore. CoreMedia’s clients include global brands, such as Australian Broadcasting Corporation (ABC), ARD, BILD, CLAAS, Continental, Deutsche Bahn, Deutsche Telekom, Gruppe Deutsche Börse, Handelsblatt,  Henkel, Office Depot und Telefónica Germany."
 
 -
   name: "neuland Büro für Informatik"
@@ -77,3 +78,13 @@ XING has 10.5 million users in its core German-speaking market.
 
 XING is a platform where professionals from all kinds of different industries can meet up, find jobs, colleagues, new assignments, cooperation partners,
 experts, generate business ideas and discover the latest industry topics. Members can meet and exchange views in over 74,000 specialist groups, while also getting together at networking events. The platform is operated by XING AG."
+
+-
+  name: "sum.cumo"
+  twitter: "@sumcumo"
+  level: Silver
+  url: "https://www.sumcumo.com/"
+  image: sumcumo.svg
+  description: "sum.cumo helps lottery and insurance companies prepare their business model for the digital age. Backed by years of industry experience and a service offering tailored to digitalisation, we are able to produce quick, simple and efficient solutions for our customers - from corporations to innovative start-ups.
+sum.cumo is not only a partner for modern technical solutions and marketing opportunities, but also helps establish a holistic, digital company philosophy that factors in new and existing potential in companies and the rapidly-changing market.
+Our Specialists in Strategy, Consulting, Communication and Technology at our offices in Zurich and Hamburg look forward to expanding on the success of their Customers and executing new, innovative projects, perhaps for your company as well."
