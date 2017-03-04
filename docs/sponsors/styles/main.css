@@ -329,6 +329,21 @@ h4 {
   flex-wrap: wrap;
   display: flex;
 }
+.map {
+  font-size: 1rem;
+  position: relative;
+  padding-bottom: 400px;
+}
+.map__canvas {
+  height: 400px;
+  width: 100vw;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.map .mapboxgl-canvas {
+  left: 0;
+}
 .sponsors {
   font-size: 1rem;
   margin-bottom: 5.555555555555555em;
