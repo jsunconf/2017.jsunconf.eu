@@ -52,7 +52,7 @@ Established in 1996, CoreMedia is headquartered in Hamburg, Germany, with office
 -
   name: "Rheinwerk Verlag"
   level: Bronze
-  url: "www.rheinwerk-verlag.de"
+  url: "https://www.rheinwerk-verlag.de"
   twitter: "@rheinwerkverlag"
   image: rheinwerk.svg
   description: "Rheinwerk is Germany's leading publisher of IT books. Our books, e-books and video tutorials are a real boon for beginners, advanced learners and professionals alike, whether they want to acquire basic software and hardware skills or deepen their technical know-how. In addition to books for programmers, designers and administrators, we offer a wide range of learning material for users of JavaScript and other programming languages for the web."
