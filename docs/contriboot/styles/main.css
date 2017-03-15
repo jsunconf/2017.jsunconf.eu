@@ -297,6 +297,9 @@ h4 {
 .section__header--coc {
   background-image: url("/images/coc.jpg");
 }
+.section__header--workshop {
+  background-image: url("/images/workshop.jpg");
+}
 .section__content {
   padding: 2.222222222222222em 1.111111111111111em;
   background: rgba(255,255,255,0.4);
